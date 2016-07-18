@@ -1,5 +1,5 @@
 # sqliteprebuilt
-Prebuilt sqlite3 shared libraries for multiple platforms
+Prebuilt sqlite3 shared libraries for multiple platforms and their build scripts
 
 ## Features
 * Enable JSON1 extension by default
