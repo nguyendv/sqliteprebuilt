@@ -9,3 +9,7 @@ Prebuilt sqlite3 shared libraries for multiple platforms and their build scripts
 * Any PC platforms that supports cmake (OSX, Linux, Unix, Windows)
 * Android NDK
 
+## Importants
+### Android
+The currently in-use C++ runtime is gnustl_shared, so you must also copy it to your project. If you want a different runtime, you can change the `APP_STL` value in the `android/jni/Application.mk` make file.
+
