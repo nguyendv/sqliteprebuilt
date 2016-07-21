@@ -9,7 +9,7 @@ LOCAL_PATH := $(call my-dir) # Set $LOCAL_PATH to the current directory that sto
 # You need call it before each module, defined by LOCAL_MODULE
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := sqlite 
+LOCAL_MODULE := sqlitecpp
 
 # source files are relative to $(LOCAL_PATH)
 FILE_LIST := $(wildcard $(LOCAL_PATH)/../../SQLiteCpp/src/*.cpp)

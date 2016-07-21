@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.4)
 
-project("sqlite")
+project("sqlitecpp")
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU" OR
     "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
@@ -21,7 +21,7 @@ file(GLOB sqlitecpp_src
 # Enable the JSON1 extension
 add_definitions(-DSQLITE_ENABLE_JSON1)
 
-add_library(sqlite SHARED
+add_library(sqlitecpp SHARED
   ${sqlitecpp_src}
 )
 
